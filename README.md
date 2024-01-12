@@ -3,7 +3,7 @@
 
 ## Project setup
 
-1. Download and install terraform in your machine
+1. Download and install terraform on your local or remote  machine
 
 2. Clone the repo
 
@@ -16,3 +16,7 @@ terrraform validate
 terraform plan
 terraform apply
 ```
+
+Once you do terraform apply, the project kicks off and the infrastructure will be deployed and then the e-commerce application will be deployed on the provisioned infrastructure.
+
+Happy Learning!!!
