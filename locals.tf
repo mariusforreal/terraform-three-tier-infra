@@ -2,7 +2,7 @@ locals {
   project_tags = {    
     contact = "info@romiandsons.com"
     application = "payments"
-    project = "jtest"
+    project = "demo-project"
     environment = "${terraform.workspace}"
     creationTime = timestamp()
   }
