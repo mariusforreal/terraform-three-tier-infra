@@ -17,7 +17,7 @@ git clone https://github.com/mariusforreal/ecommerce-web-app.git
 sudo cp -r ecommerce-web-app/server1/* /var/www/html/
 
 # To get the current hostname address
-echo "<center><p>Running the website from instance host: $(hostname -f)</p></center>" >> /var/www/html/index.html
+echo "<center><p>Running this Demo E-Commerce website from instance host: $(hostname -f)</p></center>" >> /var/www/html/index.html
 
 # Start and enable the HTTP server
 sudo systemctl start httpd
