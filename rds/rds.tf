@@ -42,7 +42,7 @@ resource "aws_db_instance" "rds" {
   db_name              = "test"
   engine               = "mysql"
   engine_version       = "5.7"
-  instance_class       = "db.t2.micro"
+  instance_class       = "db.t3.micro"
   username             = "foo"
   password             = "foobarbaz"
   parameter_group_name = "default.mysql5.7"
